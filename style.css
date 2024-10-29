@@ -1,17 +1,20 @@
 body {
-    background-color: aliceblue;
+    background: linear-gradient(120deg,#faf8f8,#ffcbe1);
 }
 
-.titulo {
-    width: 100%;
-    display: grid;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.titulo img {
+    width: 950px;
+    height: 530px;
 }
 
 #menu {
-    height: 48px;
+    height: 40px;
     background: #f25fb7;
 }
 
@@ -27,7 +30,8 @@ body {
 #menu a {
     text-decoration: none;
     color: #240215;
-    font: 15px arial;
+    font: 18px arial;
+    
 }
 
 #menu a:hover {
@@ -37,6 +41,8 @@ body {
 #menu a:active {
     font: bold 18px arial;
 }
+
+
 
 #sol {
     display: grid;
@@ -75,18 +81,17 @@ body {
 }
 
 footer {
-    background-color: rgb(0, 0, 0);
+    background-color: #e9badc;
     color: white;
     text-align: center;
     padding: 5px 0;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
 
 footer a {
     text-decoration: none;
-    color: beige;
+    color: rgb(0, 0, 0);
     font: 15px arial;
     margin: 18px 20px;
 }
