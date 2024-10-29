@@ -5,7 +5,8 @@ body {
 .titulo{
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-right: 35%;
 }
 
 .titulo img {
@@ -16,6 +17,7 @@ body {
 #menu {
     height: 40px;
     background: #f25fb7;
+    margin: -1.23%;
 }
 
 #menu ul {
@@ -24,14 +26,14 @@ body {
 
 #menu ul li {
     float: left;
-    margin: 2px 10px;
+    margin: 10px 10px;
 }
 
 #menu a {
     text-decoration: none;
     color: #240215;
     font: 18px arial;
-    
+
 }
 
 #menu a:hover {
@@ -80,11 +82,36 @@ body {
     transform: scale(1.15);
 }
 
+#menu2{
+    height: 50px;
+    background: #e9badc;
+    text-align: center;
+    padding-top: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+    
+#menu2 a{
+    text-decoration: none ;
+    color: #000;
+    font: 15px arial;
+    margin: 20px 20px;
+}
+    
+#menu2 a:hover{
+    color: #e80684;
+}
+    
+ #menu2 a:active{
+    font: bold 18px arial; 
+}
+
 footer {
     background-color: #e9badc;
     color: white;
     text-align: center;
-    padding: 5px 0;
+    padding: 10px 0;
     bottom: 0;
     width: 100%;
 }
@@ -93,7 +120,7 @@ footer a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font: 15px arial;
-    margin: 18px 20px;
+    margin: 20px 20px;
 }
 
 footer a:hover {
