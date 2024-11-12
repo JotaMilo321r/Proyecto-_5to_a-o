@@ -5,8 +5,6 @@ body {
 .titulo{
     display: flex;
     justify-content: center;
-    padding-top: 10px;
-    padding-right: 35%;
 }
 
 .titulo img {
@@ -16,8 +14,8 @@ body {
 
 #menu {
     height: 40px;
+    width: 565.02 px;
     background: #f25fb7;
-    margin: -1.23%;
 }
 
 #menu ul {
