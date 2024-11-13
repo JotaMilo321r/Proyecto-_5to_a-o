@@ -184,6 +184,7 @@ footer a:active {
     text-align: center;
     font: 14px arial;
     font-size: larger;
+    margin: 80px;
 }
 .recordar{
     font: bold 13px arial;
@@ -196,6 +197,7 @@ footer a:active {
     color: red;
 }
 .compra{
+    margin: 70px;
     font: 15px arial;
 }
 #boton_compra {
