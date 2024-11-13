@@ -145,4 +145,47 @@ footer a:active {
 
 .formu{
     text-align: center;
+    font: 14px arial;
+    font-size: larger;
+}
+.recordar{
+    font: bold 13px arial;
+}
+.envios{
+    text-align: center;
+}
+.h2{
+    font: bold 20px arial;
+    color: red;
+}
+.compra{
+    font: 15px arial;
+}
+#boton_compra {
+    --bg: #e74c3c;
+    --text-color: #ffffff;
+    position: relative;
+    width: 100px;
+    height: 20px;
+    border: none;
+    background: var(--bg);
+    color: var(--text-color);
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.2s;
+    border-radius: 5px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    box-shadow: #c0392b 0px 7px 2px, #000 0px 8px 5px;
+}
+
+#boton_compra:hover {
+    opacity: 1;
+}
+
+#boton_compra:active {
+    top: 4px;
+    box-shadow: #c0392b 0px 3px 2px, #000 0px 3px 5px;
 }

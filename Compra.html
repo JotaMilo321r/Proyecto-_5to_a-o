@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="compra">
+    <form action="index.html" method="post">
+        <fieldset>
+        <legend>1. Datos Personales</legend>
+            <div class="email">
+                <label for="email">E-mail</label><br/>
+                <input type="text" name="email" id="email"/><br/>
+            </div>
+            <div class="nom">
+                <label for="nom">Nombre</label></br>
+                <input type="text" name="nom" id="nom"/></br>
+            </div>
+            <div class="ape">
+                <label for="ape">Apellido</label></br>
+                <input type="text" name="ape" id="ape"/></br>
+            </div>
+            <div class="dni">
+                <label for="dni">DNI</label></br>
+                <input type="text" name="dni" id="dni"/></br>
+            </div>
+            <div class="tel">
+                <label for="tel">Telefono</label></br>
+                <input type="text" name="tel" id="tel"/></br>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>2. Entrega</legend>
+            <div class="envios">
+                <div class="h2"><h2>¡ENVIOS A DOMICILIO NO DISPONIBLES!</h2></div>
+                
+                <h3>Sarmiento 74</h3>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>3. Pago</legend>
+            <div class="credito">
+                <input type="radio" name="pago" value="credito" id="cred"/>
+                <label for="cred">Credito</label></br>
+            </div>
+            <div class="debito">
+                <input type="radio" name="pago" value="debito" id="deb"/>
+                <label for="deb">Debito</label></br>
+            </div>
+            <div class="mp">
+                <input type="radio" name="pago" value="mp" id="MP"/>
+                <label for="MP">Mercado Pago</label></br>
+            </div>
+            <div class="modo">
+                <input type="radio" name="pago" value="modo" id="MODO"/>
+                <label for="MODO">Modo</label></br>
+            </div>
+    </fieldset>
+        <div id="boton_compra">
+            <a href="">
+                <label for="si">Pagar</label>
+            </a>
+         </div>
+    </form>
+
+</div>    
+</body>
+</html>
