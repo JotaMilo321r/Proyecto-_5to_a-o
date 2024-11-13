@@ -6,6 +6,9 @@ body {
     display: flex;
     justify-content: center;
 }
+.mayor{
+    position: relative;
+}
 
 .titulo img {
     width: 950px;
@@ -24,7 +27,7 @@ body {
 
 #menu ul li {
     float: left;
-    margin: 10px 10px;
+    margin: 10px 10px 0px 0px;
 }
 
 #menu a {
@@ -55,7 +58,7 @@ body {
 #sol img {
     width: 100%;
     transition: all 300ms;
-    position: relative;
+    
 }
 
 #sol img:hover {
@@ -73,39 +76,73 @@ body {
 #recetados img {
     width: 100%;
     transition: all 300ms;
-    position: relative;
+
 }
 
 #recetados img:hover {
     transform: scale(1.15);
 }
+#niños {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 90%;
+    margin: 5%;
+    grid-gap: 30px;
+}
 
-#menu2{
-    height: 50px;
-    background: #e9badc;
-    text-align: center;
-    padding-top: 20px;
-    bottom: 0;
+#niños img {
     width: 100%;
+    transition: all 300ms;
+
 }
 
-    
+#niños img:hover {
+    transform: scale(1.15);
+}
+
+
+#header{
+    margin: 0;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+
+}
+#menu2 img{
+    border-radius: 50px;
+    margin: 0;
+}
 #menu2 a{
-    text-decoration: none ;
-    color: #000;
-    font: 15px arial;
-    margin: 20px 20px;
-}
+    text-decoration: none;
+    font: 27px arial;
     
-#menu2 a:hover{
-    color: #e80684;
-}
-    
- #menu2 a:active{
-    font: bold 18px arial; 
 }
 
-footer {
+#menu2 li a{
+    background: #f2e2e8f1;
+    color: #000;
+    padding: 20px 15px;
+    display:block;
+
+}
+#menu2 li a:hover{
+    background: #d0b8c6;
+
+}
+#menu2 li ul{
+    display: none;
+    
+}
+
+#menu2 li:hover > ul{
+    display: block;
+    position: absolute;
+}
+
+footer{
     background-color: #e9badc;
     color: white;
     text-align: center;
@@ -188,4 +225,11 @@ footer a:active {
 #boton_compra:active {
     top: 4px;
     box-shadow: #c0392b 0px 3px 2px, #000 0px 3px 5px;
+}
+
+#txt{
+    width: 400px;
+    text-align: justify;
+    margin: 50px 400px;
+    font: 18px arial;
 }
